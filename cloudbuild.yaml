@@ -32,5 +32,5 @@ steps:
     - 'managed'
     - '--quiet'
   id: 'Deploy to Cloud Run'
-  options:
-    logging: CLOUD_LOGGING_ONLY  
+options:
+  logging: CLOUD_LOGGING_ONLY  
